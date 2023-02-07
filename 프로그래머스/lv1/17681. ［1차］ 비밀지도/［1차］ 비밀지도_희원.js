@@ -5,7 +5,7 @@ function getBinaryNum(n, k) {
 }
 
 function solution(n, arr1, arr2) {
-    var answer = [];
+    let answer = [];
     for (let i = 0; i < n; i++) {
         const num1 = getBinaryNum(arr1[i], n);
         const num2 = getBinaryNum(arr2[i], n);
